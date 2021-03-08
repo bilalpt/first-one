@@ -1,1 +1,1 @@
-gunicorn ddrdd.wsgi --log-file -
+web: gunicorn ddrdd.wsgi --log-file -
